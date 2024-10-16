@@ -41,7 +41,7 @@ namespace SantanderTest.Service.Services
                         .ToList();
 
                     var stories = await Task.WhenAll(tasks);
-                    return stories.OrderByDescending(s => s.Score);
+                    return stories.OrderByDescending(s => s.Score).AsEnumerable();
                 }
 
                 return Enumerable.Empty<Story>();

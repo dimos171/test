@@ -30,7 +30,7 @@ public class HackerNewsController : ControllerBase
             Uri = n.Url,
             Time = DateTimeOffset.FromUnixTimeSeconds(n.Time).LocalDateTime,
             CommentCount = n.Kids.Count
-        }).AsEnumerable();
+        });
 
         return Ok(response);
     }

@@ -1,6 +1,6 @@
 # Santander - Developer Coding Test
 
-This is a simple .NET Core RESTful API that retrieves details of the first `n` "best stories" from the Hacker News API, where `n` is specified by the caller. The solution follows **DDD** (Domain-Driven Design) and **SOLID** principles.
+This is a simple .NET Core RESTful API that retrieves details of the first `n` "best stories" from the Hacker News API, where `n` is specified by the caller. The solution follows **DDD** (Domain-Driven Design) and **SOLID** principles.Items are sorted by their score in a descending order
 
 ## Solution Overview
 
