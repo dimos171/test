@@ -2,6 +2,8 @@
 
 This is a simple .NET Core RESTful API that retrieves details of the first `n` "best stories" from the Hacker News API, where `n` is specified by the caller. The solution follows **DDD** (Domain-Driven Design) and **SOLID** principles.Items are sorted by their score in a descending order
 
+To run the project, download the repo and run `dotnet run --project SantanderTest/SantanderTest/SantanderTest.csproj` from the local git repository root folder
+
 ## Solution Overview
 
 The solution consists of:
